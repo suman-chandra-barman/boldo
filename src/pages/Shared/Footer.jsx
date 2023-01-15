@@ -4,7 +4,7 @@ import logo from "../../assets/logo/logo2.png";
 
 const Footer = () => {
   return (
-    <footer className=" mt-[100px] text-[#777777] mb-[117px] p-2 lg:p-10">
+    <footer className="mt-[30px] md:mt-[100px] text-[#777777] mb-10 md:mb-[117px] p-3 lg:p-10">
       <div className="footer grid-cols-3 md:grid-cols-5 text-xl leading-8">
         <div className="col-span-3 md:col-span-2 lg:w-[300px]">
           <Link className="flex gap-[10px]">

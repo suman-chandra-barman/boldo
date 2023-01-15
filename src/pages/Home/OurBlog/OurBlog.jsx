@@ -40,7 +40,7 @@ const OurBlog = () => {
     },
   ];
   return (
-    <section className="max-w-[1100px] mx-auto mb-12 md:mb-[100px] lg:mb-[124px] mt-12 md:mt-[100px] lg:mt-[156px]">
+    <section className="max-w-[1100px] px-3 mx-auto mb-12 md:mb-[100px] lg:mb-[124px] mt-12 md:mt-[100px] lg:mt-[156px]">
       <div className="text-center md:w-[90%] lg:w-[80%] mx-auto">
         <h2 className="text-xl text-[#777777]">Our Blog</h2>
         <p className="text-2xl md:text-3xl lg:text-5xl md:leading-[72px] mt-3 font-Manrope">
@@ -48,7 +48,7 @@ const OurBlog = () => {
         </p>
       </div>
       <div>
-        <div className="md:flex col-span-2 gap-[100px] mt-[78px] justify-center">
+        <div className="md:flex col-span-2 gap-[100px] mt-[30px] md:mt-[50px] lg:mt-[78px] justify-center">
           {blogs.map((blog) => (
             <BlogCart key={blog.id} blog={blog} />
           ))}

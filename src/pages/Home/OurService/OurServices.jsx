@@ -29,14 +29,14 @@ const OurServices = () => {
   ];
 
   return (
-    <section className="max-w-[1100px] mx-auto mt-[82px]">
+    <section className="max-w-[1100px] px-3 mx-auto mt-10 lg:mt-[82px]">
       <div className="text-center md:w-[90%] lg:w-[80%] mx-auto">
         <h2 className="text-xl text-[#777777]">Our Services</h2>
         <p className="text-2xl md:text-3xl lg:text-5xl lg:leading-[72px] mt-3 font-Manrope">
           Handshake infographic mass market crowdfunding iteration.
         </p>
       </div>
-      <div className="md:flex col-span-2 gap-[100px] mt-10 md:mt-13 lg:mt-[78px] justify-center mb-14 md:mb-[100px] lg:mb-[195px]">
+      <div className="md:flex col-span-2 gap-[100px] mt-5 md:mt-13 lg:mt-[78px] justify-center mb-14 md:mb-[100px] lg:mb-[195px]">
         {services.map((service) => (
           <ServiceCard key={service._id} service={service} />
         ))}
