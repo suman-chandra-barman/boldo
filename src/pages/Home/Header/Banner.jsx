@@ -5,9 +5,9 @@ import img3 from "../../../assets/banner/circuleChat.png";
 const Banner = () => {
   return (
     <>
-      <div className="lg:flex relative mt-5 md:mt-[65px] md:gap-[100px] lg:gap-[110px] z-[1]">
-        <div className="lg:w-1/2 px-2 md:px-0">
-          <h1 className="font-Manrope text-3xl lg:text-5xl md:leading-[72px]">
+      <div className="md:flex px-3 relative mt-5 md:mt-[65px] md:gap-[30px] lg:gap-[110px] z-[1]">
+        <div className="md:w-1/2 px-2 md:px-0">
+          <h1 className="font-Manrope text-3xl lg:text-5xl leading-10 lg:leading-[72px]">
             Save time by building fast with Boldo Template{" "}
           </h1>
           <p className="text-[#F1F1F1] leading-[28px] mt-4">
