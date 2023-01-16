@@ -9,18 +9,18 @@ const ServiceIncome = () => {
         <figure className="md:w-1/2 rounded-[24px] relative">
           <img src={men} alt="men with phone" className="w-full" />
           {/* income chat */}
-          <div className="w-[250px] h-[388px] p-10 pb-0 bg-white absolute -bottom-24 rounded-xl shadow-[0_4px_32px_rgba(0,0,0,0.12)] right-[57px]">
-            <div className="flex gap-3 mb-[70px] relative top-48">
-              <div className="w-3 bg-[#0DBBFC] h-[50px] absolute -bottom-12 left-0"></div>
-              <div className="w-3 bg-[#0DBBFC] h-[29px] absolute -bottom-7 left-6"></div>
-              <div className="w-3 bg-[#0DBBFC] h-[134px] absolute bottom-0 left-[48px]"></div>
-              <div className="w-3 bg-[#0DBBFC] h-[93px] absolute bottom-0 left-[72px]"></div>
-              <div className="w-3 bg-[#0A2640] h-[178px] absolute bottom-0 left-[96px]"></div>
-              <div className="w-3 bg-[#0DBBFC] h-[126px] absolute bottom-0 left-[120px]"></div>
-              <div className="w-3 bg-[#0DBBFC] h-[150px] absolute bottom-0 left-[144px]"></div>
-              <div className="w-3 bg-[#0DBBFC] h-[79px] absolute bottom-0 left-[168px]"></div>
+          <div className="w-[220px] h-[300px] md:w-[250px] md:h-[388px] p-5 md:p-10 pb-0 bg-white absolute -bottom-24 md:bottom-0 lg:-bottom-24 rounded-xl shadow-[0_4px_32px_rgba(0,0,0,0.12)] right-9 md:right-[57px]">
+            <div className="flex gap-3 mb-[70px] relative top-[150px] md:top-48">
+              <div className="w-3 bg-[#0DBBFC] h-[40px] md:h-[50px] absolute -bottom-12 left-0"></div>
+              <div className="w-3 bg-[#0DBBFC] h-[19px] md:h-[29px] absolute -bottom-7 left-4 md:left-6"></div>
+              <div className="w-3 bg-[#0DBBFC] h-[120px] md:h-[134px] absolute bottom-0 left-[32px] md:left-[48px]"></div>
+              <div className="w-3 bg-[#0DBBFC] h-[80px] md:h-[93px] absolute bottom-0 left-[48px] md:left-[72px]"></div>
+              <div className="w-3 bg-[#0A2640] h-[160px] md:h-[178px] absolute bottom-0 left-[64px] md:left-[96px]"></div>
+              <div className="w-3 bg-[#0DBBFC] h-[105px] md:h-[126px] absolute bottom-0 left-[80px] md:left-[120px]"></div>
+              <div className="w-3 bg-[#0DBBFC] h-[135px] md:h-[150px] absolute bottom-0 left-[96px] md:left-[144px]"></div>
+              <div className="w-3 bg-[#0DBBFC] h-[70px] md:h-[79px] absolute bottom-0 left-[112px] md:left-[168px]"></div>
             </div>
-            <div className="absolute bottom-10">
+            <div className="absolute bottom-5 md:bottom-10">
               <h6 className="text-2xl  text-[#0A2640]">30%</h6>
               <p className="text-[14px] text-[#0A2640]">More income in June</p>
             </div>
