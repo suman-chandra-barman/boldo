@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="active:bg-inherit" to="/">
+        <Link to="/" className="active:bg-inherit">
           <button className="btn bg-white text-[#0A2640] rounded-3xl px-10 py-2 hover:bg-white">
             Login
           </button>
