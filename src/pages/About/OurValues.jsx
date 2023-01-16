@@ -29,7 +29,7 @@ const OurValues = () => {
     },
   ];
   return (
-    <section className="bg-[#0A2640] py-[123px] mb-[124px]">
+    <section className="bg-[#0A2640] py-10 md:py-[80px] lg:py-[123px] px-3 mb-7  md:mb-10 lg:mb-[124px]">
       <article className="max-w-[800px] mx-auto mt-10 md:mb-[52px] p-2">
         <h3 className="text-xl leading-[32px] text-white">Our values</h3>
         <h2 className="text-3xl text-white md:text-4xl lg:text-[48px] lg:leading-[72px] mt-3 font-Manrope">

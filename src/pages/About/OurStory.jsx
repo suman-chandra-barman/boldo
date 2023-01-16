@@ -2,7 +2,7 @@ import React from "react";
 
 const OurStory = () => {
   return (
-    <article className="max-w-[800px] mx-auto mt-10 md:mb-[94px] p-2">
+    <article className="max-w-[800px] mx-auto lg:mt-10 mb-10 md:mb-[94px] px-3 lg:px-0">
       <h3 className="text-xl text-[#777777] leading-[32px]">Our story</h3>
       <h2 className="text-3xl md:text-4xl lg:text-[48px] lg:leading-[72px] mt-3 font-Manrope">
         Handshake infographic mass market crowdfunding iteration.

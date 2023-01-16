@@ -42,7 +42,7 @@ const Footer = () => {
           <Link className="link link-hover">Services</Link>
         </div>
       </div>
-      <div className="text-center lg:text-left">
+      <div className="text-center md:text-xl lg:text-left mt-5 lg:mt-0">
         <p className="text-[#777777]"> All rights reserved.</p>
       </div>
     </footer>

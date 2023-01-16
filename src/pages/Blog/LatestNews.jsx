@@ -72,19 +72,19 @@ const LatestNews = () => {
     },
   ];
   return (
-    <section className="max-w-[1100px] mx-auto mb-[124px] mt-[96px]">
+    <section className="max-w-[1100px] mx-auto mb-10 md:mb-[80px] lg:mb-[124px] mt-5 md:mt-10 lg:mt-[96px] px-3">
       <div>
-        <h2 className="text-[48px] font-Manrope leading-[72px] mb-10">
+        <h2 className=" text-3xl md:text-[48px] font-Manrope leading-[72px] md:mb-10">
           Latest news
         </h2>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-[100px] mt-[78px] justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-[100px] mt-5 md:mt-10 lg:mt-[78px] justify-center">
           {news.map((blog) => (
             <BlogCart key={blog.id} blog={blog} />
           ))}
         </div>
-        <div className="text-center mt-[84px]">
+        <div className="text-center mt-5 md:mt-10 lg:mt-[84px]">
           <button className="btn text-xl font-bold btn-outline border-black items-center bg-white rounded-[56px] px-[56px] h-[60px] py-4 hover:bg-[#69E6A6] text-[#0A2640] hover:border-[#69E6A6]">
             Load more
           </button>

@@ -11,10 +11,10 @@ const OurTeam = () => {
     { id: 3, name: "Pam Beetsley", title: "General Manager", image: img3 },
   ];
   return (
-    <section className="max-w-[1000px] mx-auto">
+    <section className="max-w-[1000px] mx-auto px-3">
       <article className="max-w-[800px] mx-auto mt-10 md:mb-[52px] p-2">
         <h3 className="text-xl text-[#777777] leading-[32px]">Our team</h3>
-        <h2 className="text-3xl md:text-4xl lg:text-[48px] lg:leading-[72px] mt-3 font-Manrope">
+        <h2 className="text-2xl md:text-4xl lg:text-[48px] lg:leading-[72px] mt-3 font-Manrope">
           The leadership team
         </h2>
         <p className="text-xl text-[#777777] leading-[32px] mt-[30px]">

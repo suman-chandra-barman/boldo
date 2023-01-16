@@ -15,6 +15,7 @@ html {
   position: absolute;
   top: -81px;
   right: 74px !important;
+  left: auto;
 }
 .slick-slider .slick-prev::before {
   color: black;
@@ -44,7 +45,7 @@ html {
   .slick-slider .slick-prev {
     position: absolute;
     top: -30px;
-    right: 70px !important;
+    right: 75px !important;
   }
   .slick-slider .slick-next {
     position: absolute;

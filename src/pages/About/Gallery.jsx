@@ -7,7 +7,7 @@ import img5 from "../../assets/gallery/5.png";
 
 const Gallery = () => {
   return (
-    <section className="relative top-[-100px]">
+    <section className="relative top-[-100px] px-3">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-10 max-w-[1100px] mx-auto ">
         <figure>
           <img src={img1} alt="" className="w-full h-full" />
