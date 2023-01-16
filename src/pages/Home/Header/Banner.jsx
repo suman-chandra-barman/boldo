@@ -16,10 +16,10 @@ const Banner = () => {
             non-disclosure.
           </p>
           <div className="mt-5 lg:mt-10">
-            <button className="btn bg-[#69E6A6] text-[#0A2640] rounded-3xl md:px-10 py-2 hover:bg-white">
+            <button className="btn bg-[#69E6A6] text-[#0A2640] rounded-3xl px-2 md:px-5 lg:px-10 py-2 hover:bg-white">
               Buy template
             </button>
-            <button className="btn btn-outline border-white ml-5 text-white rounded-3xl md:px-10 py-2 hover:bg-[#69E6A6] hover:text-[#0A2640]">
+            <button className="btn btn-outline border-white ml-2 lg:ml-5 text-white rounded-3xl px-2 md:px-5 lg:px-10 py-2 hover:bg-[#69E6A6] hover:text-[#0A2640]">
               Buy template
             </button>
           </div>

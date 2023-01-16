@@ -34,11 +34,11 @@ const ServiceAnalysis = () => {
         <figure className="md:w-1/2 rounded-[24px] relative mt-10 md:mt-0">
           <img src={wemen} alt="men with phone" className="w-full" />
           {/* income chat */}
-          <div className="w-[300px] h-[388px] px-5 pt-10 pb-0 bg-white absolute -bottom-24 rounded-xl shadow-[0_4px_32px_rgba(0,0,0,0.12)] left-[48px]">
+          <div className="h-[350px] md:w-[300px] md:h-[388px] px-5 pt-10 pb-0 bg-white absolute -bottom-24 rounded-xl shadow-[0_4px_32px_rgba(0,0,0,0.12)] left-10 md:left-6 lg:left-[48px]">
             <div className="mb-[70px] flex justify-center items-center">
               <CircleChat />
             </div>
-            <div className="absolute bottom-10 text-xl font-Manrope mt-[22px]">
+            <div className="absolute bottom-10 md:bottom-10 md:text-xl font-Manrope mt-[22px]">
               <div className="flex col-span-2  items-center gap-2">
                 <div className="w-[5px] h-[5px] bg-[#0DBBFC] rounded-full"></div>
                 <div>
